@@ -34306,13 +34306,14 @@ _.b6$=i
 _.bw$=j
 _.bt$=k},
 aHw:function aHw(){},
-tm:function tm(a,b,c,d,e,f){var _=this
+tm:function tm(a,b,c,d,e,f,g){var _=this
 _.a=a
 _.b=b
 _.c=c
-_.e=d
-_.f=e
-_.r=f},
+_.d=d
+_.e=e
+_.f=f
+_.r=g},
 Au:function Au(a){this.a=a},
 Nu:function Nu(a,b){this.c=a
 this.a=b},
@@ -124698,14 +124699,14 @@ case"daily-test-hhmd":case"daily-test-wtmd":case"daily-test-xray":return B.a_7
 default:return B.ZC}},
 h9(){this.io()
 this.Gj()},
-Gj(){var s=0,r=A.r(t.H),q=1,p=[],o=[],n=this,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8
-var $async$Gj=A.t(function(a9,b0){if(a9===1){p.push(b0)
-s=q}for(;;)switch(s){case 0:a7=n.ay
-a7.sj(0,!0)
+Gj(){var s=0,r=A.r(t.H),q=1,p=[],o=[],n=this,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9
+var $async$Gj=A.t(function(b0,b1){if(b0===1){p.push(b1)
+s=q}for(;;)switch(s){case 0:a8=n.ay
+a8.sj(0,!0)
 q=3
 s=6
 return A.k(n.ax.c5(0),$async$Gj)
-case 6:m=b0
+case 6:m=b1
 n.CW.sj(0,m)
 f=n.cx
 f.su(0,0)
@@ -124723,16 +124724,17 @@ a1=a1==null?null:a1.c
 a0=a1==null?n.a_q(a0):a1
 a1=j.a
 a1.toString
-i.c.a.toString
-a2=j.b
-if(a2==null)a2=""
-a3=i.c.b
+a2=i.c.a
+a2.toString
+a3=j.b
 if(a3==null)a3=""
-a4=j.c
+a4=i.c.b
 if(a4==null)a4=""
-a5=f.a6$
-a5===$&&A.a()
-J.cB(a5,new A.tm(a,a0,a1,a2,a3,a4))
+a5=j.c
+if(a5==null)a5=""
+a6=f.a6$
+a6===$&&A.a()
+J.cB(a6,new A.tm(a,a0,a1,a2,a3,a4,a5))
 f.ac$.an(f.gj(0))}}else if(j.e!=null)for(d=j.e,c=d.length,b=0;b<d.length;d.length===c||(0,A.M)(d),++b){h=d[b]
 if(k){a=j.b
 if(a==null)a=""}else a=A.m(j.b)+" "+A.m(h.b)
@@ -124742,22 +124744,23 @@ a1=a1==null?null:a1.c
 a0=a1==null?n.a_q(a0):a1
 a1=j.a
 a1.toString
-h.a.toString
-a2=j.b
-if(a2==null)a2=""
-a3=h.b
+a2=h.a
+a2.toString
+a3=j.b
 if(a3==null)a3=""
-a4=j.c
+a4=h.b
 if(a4==null)a4=""
-a5=f.a6$
-a5===$&&A.a()
-J.cB(a5,new A.tm(a,a0,a1,a2,a3,a4))
+a5=j.c
+if(a5==null)a5=""
+a6=f.a6$
+a6===$&&A.a()
+J.cB(a6,new A.tm(a,a0,a1,a2,a3,a4,a5))
 f.ac$.an(f.gj(0))}}o.push(5)
 s=4
 break
 case 3:q=2
-a8=p.pop()
-g=A.S(a8)
+a9=p.pop()
+g=A.S(a9)
 A.dZ().$1("[Screening] Failed to fetch type reports: "+A.m(g))
 A.ab("Gagal memuat menu screening",!0)
 o.push(5)
@@ -124765,7 +124768,7 @@ s=4
 break
 case 2:o=[1]
 case 4:q=1
-a7.sj(0,!1)
+a8.sj(0,!1)
 s=o.pop()
 break
 case 5:return A.p(null,r)
@@ -125778,24 +125781,20 @@ av5(){var s=null
 return new A.al(B.hO,A.hL(s,B.bx,!1,s,!0,B.G,s,A.ic(),s,s,s,s,s,s,2,A.n9("Cari logbook...",B.dy),B.J,!0,s,!0,s,!1,s,B.bs,s,s,s,s,s,s,s,s,1,s,s,!1,"\u2022",s,new A.aWR(this),s,s,s,!1,s,s,!1,s,!0,s,B.bh,s,s,s,s,s,s,s,s,s,s,s,s,!0,B.T,s,B.bR,s,s,s,s),s)},
 av4(){return new A.aR(new A.aWQ(this),null)}}
 A.aWN.prototype={
-$0(){var s,r,q,p,o="locationId",n=this.a,m=n.azC()
-n=n.d
-n.p2.sj(0,!1)
-n.p3.sj(0,null)
-n.Mu()
-n.ad.sbq(0,A.r4("yyyy-MM-dd",null).lm(new A.cv(Date.now(),0,!1)))
-n.rx.sj(0,m)
-s=$.x()
-r=$.aO().to.c
-q=t.f.b(r)&&A.eG(J.B(r,o))
-p=n.ry
-if(q)p.sj(0,A.dP(J.B(r,o)))
-else p.sj(0,n.fy.gj(0))
-n.p1.sj(0,!0)
-n=t.z
-q=A.hl($.aO().to.c,n,n)
-q.q(0,"typeLogbook",m)
-A.cJ(s,"/screening/logbook/form",q,n)},
+$0(){var s,r="locationId",q=this.a,p=q.azC(),o=$.x(),n=$.aO().to.c,m=t.f.b(n)&&A.eG(J.B(n,r))?A.dP(J.B(n,r)):q.d.fy.gj(0)
+q=q.d
+q.p2.sj(0,!1)
+q.p3.sj(0,null)
+q.Mu()
+q.ad.sbq(0,A.r4("yyyy-MM-dd",null).lm(new A.cv(Date.now(),0,!1)))
+q.rx.sj(0,p)
+s=m==null?q.fy.gj(0):m
+q.ry.sj(0,s)
+q.p1.sj(0,!0)
+q=t.z
+s=A.hl($.aO().to.c,q,q)
+s.q(0,"typeLogbook",p)
+A.cJ(o,"/screening/logbook/form",s,q)},
 $S:0}
 A.aWM.prototype={
 $0(){var s=this.a,r=s.d.fr.gj(0),q=t.N
@@ -125959,7 +125958,7 @@ q=q.n(0,null,A.h(this.a).i("y.T"))
 q.toString
 s=this.b
 r=s.r
-A.cJ($.x(),q.aAc(r),A.a9(["typeReportId",s.c,"title",s.a,"typeReportName",s.e,"locationName",s.f,"slug",r],t.N,t.K),t.z)
+A.cJ($.x(),q.aAc(r),A.a9(["typeReportId",s.c,"locationId",s.d,"title",s.a,"typeReportName",s.e,"locationName",s.f,"slug",r],t.N,t.K),t.z)
 return null},
 $S:0}
 A.aHD.prototype={
